@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #003366;
+    padding: 10px;
+    color: blue;
+}
+header nav ul{
+    list-style: armenian;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+header nav ul li{
+    margin: 0 10px;
+}
+header nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+main{
+    padding: 20px;
+}
+main section{
+    margin-bottom: 20px;
+}
+footer{
+    background-color: hwb(240 2% 77%);
+    color: antiquewhite;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+footer div{
+    width: 30%;
+}
+footer h3{
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+footer ul li{
+    margin-bottom: 10px;
+}
+footer ul li a{
+    color: beige;
+    text-decoration: none;
+}
+footer input{
+    padding: 5px;
+    margin-right: 5px;
+}
+footer button{
+    padding: 5px;
+    background-color: crimson;
+    color: bisque;
+    border: none;
+    cursor: pointer;
+}
